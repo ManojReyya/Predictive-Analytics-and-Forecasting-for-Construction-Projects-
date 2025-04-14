@@ -47,30 +47,20 @@ cd Predictive-Analytics-and-Forecasting-for-Construction-Projects-
 ```
 ### 2. Set Up Virtual Environment
 ```bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 3. Install Dependencies
 ```bash
-Copy
-Edit
 pip install -r requirements.txt
 ```
 5. Run the Application
 ```bash
-Copy
-Edit
 python app.py
 ```
 6. Open in Browser
 Visit:
 ```bash
 http://127.0.0.1:5000
-
 ```
-cpp
-Copy
-Edit
-http://127.0.0.1:5000
+

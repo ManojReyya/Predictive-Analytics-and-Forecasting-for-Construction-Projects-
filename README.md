@@ -36,7 +36,48 @@ Powered by pre-trained ML models:
 - 🧱 Required additional materials
 
 ---
+# 🤖 Machine Learning in This Project
 
+This project uses machine learning models to enhance construction project forecasting and analytics. The goal is to predict:
+
+- 🕒 Estimated days to project completion
+- 👷 Additional workers required
+- 🧱 Additional materials needed
+
+## 🧠 ML Workflow
+
+### 1. Dataset
+The model is trained on historical construction project data with the following features:
+
+- `work_progress`
+- `worker_availability`
+- `material_availability`
+- `equipment_availability`
+- `delays`
+- `resource_shortage`
+- `budget_overrun`
+
+### 2. Models
+We use **Random Forest Regressors** from `scikit-learn` to predict:
+
+- `predicted_completion_days_left`
+- `additional_workers_needed`
+- `additional_materials_needed`
+
+Each target is trained using a separate model for better accuracy.
+
+### 3. Model Evaluation
+We evaluate each model using:
+
+- **MAE** (Mean Absolute Error)
+- **MSE** (Mean Squared Error)
+
+Example evaluation output:
+```text
+Completion Prediction - MAE: 42.93, MSE: 2419.52  
+Workers Prediction - MAE: 4.97, MSE: 33.42  
+Materials Prediction - MAE: 12.46, MSE: 212.12  
+```
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the Repository

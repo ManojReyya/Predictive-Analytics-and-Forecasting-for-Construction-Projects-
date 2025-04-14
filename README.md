@@ -46,3 +46,34 @@ Estimated days to completion
 Required additional workers
 
 Required additional materials
+
+
+⚙️ Installation & Setup
+Clone the repository
+
+bash
+Copy
+Edit
+git clone https://github.com/ManojReyya/Predictive-Analytics-and-Forecasting-for-Construction-Projects-.git
+cd Predictive-Analytics-and-Forecasting-for-Construction-Projects-
+Create a virtual environment & install dependencies
+
+bash
+Copy
+Edit
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+Run the application
+
+bash
+Copy
+Edit
+python app.py
+Visit in browser
+
+cpp
+Copy
+Edit
+http://127.0.0.1:5000
+

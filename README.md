@@ -1,3 +1,10 @@
+#WORKING URL:
+```bash
+https://manojr11.pythonanywhere.com
+```
+#Ready For login
+
+
 # 🏗️ Predictive Analytics and Forecasting for Construction Projects
 
 A Flask-based web application for managing construction projects, tasks, and progress. It includes role-based authentication, admin controls, and AI-powered predictions for project analytics such as estimated completion time, required workers, and material needs.

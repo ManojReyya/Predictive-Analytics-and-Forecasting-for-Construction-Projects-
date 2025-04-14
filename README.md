@@ -1,79 +1,79 @@
-# Predictive-Analytics-and-Forecasting-for-Construction-Projects-
-
-This is a Flask-based web application for managing construction projects, tasks, and progress. It features role-based authentication, admin controls, and AI-powered predictions for project analytics such as estimated completion, additional workers, and material needs.
+🏗️ Predictive Analytics and Forecasting for Construction Projects
+A Flask-based web application designed to streamline construction project management. It includes powerful features such as role-based access control, progress tracking, and AI-driven forecasting for project completion, labor needs, and material requirements.
 
 🚀 Features
-✅ Core Features
-User Authentication (Register, Login, Logout)
+✅ Core System
+User Authentication
 
-Role-Based Access (Admin & Core User)
+Register, Login, Logout
+
+Role-Based Access
+
+Admins and Core Users
 
 Project Management
 
-Add, view, and delete projects
+Add, view, delete projects
 
-Inline task management per project
+Inline task management for each project
 
 Task Progress Tracking
 
-Add progress with percentage, delay, notes
+Update completion percentage, delays, and notes
 
-Automatic status updates
+Auto-updates task and project status
 
-Admin Panel
+Admin Dashboard
 
-Promote/demote admins
+Promote/demote users to Admin
 
-Block/unblock users
-
-Delete users
+Block/unblock and delete users
 
 File Upload Support
 
-Import project tasks via .xlsx or .csv
+Import tasks via .xlsx or .csv files
 
 Analytics & Reporting
 
-View task progress in structured tables
+Visualize task progress and delays
 
-Downloadable reports (optional)
+Structured tabular reporting
 
 🤖 AI-Powered Predictions
-Powered by pre-trained ML models:
+Powered by pre-trained machine learning models:
 
-Estimated days to completion
+⏳ Estimated Completion Time (in days)
 
-Required additional workers
+👷 Additional Workers Required
 
-Required additional materials
-
+🧱 Additional Materials Needed
 
 ⚙️ Installation & Setup
-Clone the repository
-
+1. Clone the Repository
 bash
 Copy
 Edit
 git clone https://github.com/ManojReyya/Predictive-Analytics-and-Forecasting-for-Construction-Projects-.git
 cd Predictive-Analytics-and-Forecasting-for-Construction-Projects-
-Create a virtual environment & install dependencies
-
+2. Set Up Virtual Environment
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+3. Install Dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
-Run the application
-
+4. Run the Application
 bash
 Copy
 Edit
 python app.py
-Visit in browser
+Then visit the application in your browser:
 
 cpp
 Copy
 Edit
 http://127.0.0.1:5000
-

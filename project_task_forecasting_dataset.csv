@@ -1,0 +1,1001 @@
+task_id,project_duration_days,task_duration_days,completion_percentage,delay_days,workers_assigned,material_shortage_flag,predicted_completion_days_left,estimated_extra_workers,recommended_schedule_change
+1,152,9,98,9,10,0,9,0,Add 1 shift/week
+2,183,37,10,4,6,1,37,3,Increase Overtime
+3,217,46,47,6,5,0,30,3,No Change
+4,318,60,71,0,8,1,17,3,Add 1 shift/week
+5,345,33,85,7,4,0,11,1,Add 1 shift/week
+6,267,39,51,13,6,1,32,1,No Change
+7,224,23,29,13,8,0,29,3,Add 1 shift/week
+8,96,28,1,5,10,1,32,3,Reassign Workers
+9,286,21,32,0,4,1,14,3,Reassign Workers
+10,284,28,80,11,5,1,16,0,Increase Overtime
+11,259,51,20,10,7,1,50,1,Increase Overtime
+12,133,16,39,7,2,0,16,3,Add 1 shift/week
+13,231,46,53,0,9,0,21,1,No Change
+14,152,29,90,7,1,0,9,2,Add 1 shift/week
+15,321,9,61,3,4,0,6,2,Increase Overtime
+16,154,15,72,5,9,0,9,2,Reassign Workers
+17,200,15,69,7,4,0,11,1,No Change
+18,269,40,99,14,1,0,14,3,Add 1 shift/week
+19,104,47,29,9,9,0,42,1,Reassign Workers
+20,307,35,41,5,6,0,25,0,No Change
+21,290,55,8,3,5,0,53,0,Add 1 shift/week
+22,94,37,94,12,3,0,14,1,No Change
+23,264,7,17,9,4,1,14,3,Reassign Workers
+24,209,35,9,6,10,1,37,2,Add 1 shift/week
+25,229,46,71,14,3,1,27,0,Increase Overtime
+26,329,44,8,15,4,0,55,0,Reassign Workers
+27,163,42,87,0,8,0,5,2,Increase Overtime
+28,353,33,18,14,1,0,41,0,Reassign Workers
+29,333,35,97,14,8,0,15,0,Increase Overtime
+30,195,52,63,0,10,1,19,0,Add 1 shift/week
+31,121,42,74,4,10,0,14,3,Add 1 shift/week
+32,289,39,37,2,6,1,26,1,No Change
+33,218,11,18,8,3,0,17,0,Add 1 shift/week
+34,283,49,38,11,2,0,41,3,Increase Overtime
+35,313,46,45,5,8,0,30,1,Increase Overtime
+36,254,22,49,1,8,0,12,2,Add 1 shift/week
+37,223,50,31,7,4,0,41,2,Increase Overtime
+38,357,33,84,8,9,1,13,3,Add 1 shift/week
+39,118,27,82,5,9,1,9,2,Increase Overtime
+40,220,60,41,3,4,0,38,3,No Change
+41,284,7,24,4,3,0,9,0,Reassign Workers
+42,165,35,78,14,9,0,21,0,Increase Overtime
+43,140,57,8,3,10,1,55,1,Reassign Workers
+44,236,25,34,13,10,0,29,2,Reassign Workers
+45,139,57,1,11,6,0,67,1,Increase Overtime
+46,145,59,8,1,9,0,55,3,Add 1 shift/week
+47,167,15,24,13,4,1,24,0,Increase Overtime
+48,96,40,48,10,7,0,30,2,Add 1 shift/week
+49,149,31,43,2,2,0,19,0,Increase Overtime
+50,277,36,32,9,7,0,33,3,Reassign Workers
+51,362,8,10,8,8,0,15,1,No Change
+52,196,22,30,12,5,0,27,1,Reassign Workers
+53,123,59,95,8,3,0,10,2,Add 1 shift/week
+54,286,49,11,7,9,0,50,1,Reassign Workers
+55,167,8,74,13,2,1,15,3,Increase Overtime
+56,230,46,45,13,1,0,38,1,Add 1 shift/week
+57,285,37,77,2,5,1,10,2,Add 1 shift/week
+58,286,35,70,14,7,1,24,3,Add 1 shift/week
+59,324,52,3,2,3,1,52,3,Increase Overtime
+60,310,23,38,0,1,0,14,2,Add 1 shift/week
+61,312,14,7,13,2,0,26,2,Add 1 shift/week
+62,285,35,78,3,7,1,10,2,Add 1 shift/week
+63,189,34,93,5,7,1,7,1,Add 1 shift/week
+64,192,28,73,9,3,1,16,0,No Change
+65,111,12,66,15,5,0,19,0,Reassign Workers
+66,353,31,88,15,3,0,18,0,Reassign Workers
+67,365,18,45,7,10,1,16,1,Increase Overtime
+68,108,36,45,8,7,0,27,3,No Change
+69,323,10,77,7,2,0,9,0,Add 1 shift/week
+70,150,30,21,1,4,0,24,1,Add 1 shift/week
+71,255,20,70,13,2,1,19,2,Reassign Workers
+72,215,19,45,3,6,1,13,2,No Change
+73,188,60,83,5,3,1,15,1,Reassign Workers
+74,198,21,70,6,2,0,12,0,Increase Overtime
+75,259,28,40,4,3,0,20,0,Add 1 shift/week
+76,174,38,38,6,5,0,29,1,Reassign Workers
+77,200,11,10,5,2,0,14,3,No Change
+78,222,22,44,1,3,1,13,0,Add 1 shift/week
+79,348,53,33,7,10,0,42,0,Increase Overtime
+80,123,28,20,1,1,1,23,0,Reassign Workers
+81,105,14,22,0,7,1,10,0,Increase Overtime
+82,178,49,73,9,4,1,22,1,Add 1 shift/week
+83,266,8,84,9,1,0,10,3,Reassign Workers
+84,290,59,37,8,1,0,45,2,No Change
+85,150,12,8,11,9,0,22,3,Add 1 shift/week
+86,269,14,4,10,10,0,23,1,Reassign Workers
+87,224,54,48,3,10,0,31,3,Increase Overtime
+88,275,17,64,13,8,0,19,2,Reassign Workers
+89,135,33,23,2,5,0,27,1,Increase Overtime
+90,360,44,77,9,6,0,19,0,Add 1 shift/week
+91,203,43,100,0,3,0,0,0,No Change
+92,103,59,82,7,6,1,17,1,Reassign Workers
+93,337,16,87,11,4,0,13,3,Add 1 shift/week
+94,92,57,29,0,6,0,40,2,No Change
+95,177,24,72,10,7,0,16,1,Reassign Workers
+96,219,56,3,5,4,1,59,1,Increase Overtime
+97,311,45,62,9,5,1,26,3,Add 1 shift/week
+98,321,24,75,3,7,1,9,3,Increase Overtime
+99,105,35,38,6,1,0,27,2,Reassign Workers
+100,92,20,77,10,10,1,14,0,Increase Overtime
+101,166,31,8,5,2,0,33,2,Add 1 shift/week
+102,101,32,93,4,1,1,6,2,Reassign Workers
+103,231,13,20,1,4,0,11,3,Increase Overtime
+104,277,8,81,7,10,0,8,2,Add 1 shift/week
+105,331,60,79,13,7,1,25,3,Add 1 shift/week
+106,243,38,60,5,9,1,20,1,Increase Overtime
+107,350,31,84,7,9,1,11,1,Increase Overtime
+108,108,26,3,10,4,1,35,2,Increase Overtime
+109,146,29,82,1,5,1,6,1,Reassign Workers
+110,270,32,16,10,4,0,36,1,No Change
+111,125,50,45,5,10,0,32,2,No Change
+112,149,11,88,7,5,1,8,2,Add 1 shift/week
+113,217,53,6,11,5,1,60,2,No Change
+114,260,45,69,12,2,0,25,0,Reassign Workers
+115,219,7,79,3,10,1,4,3,Add 1 shift/week
+116,148,14,23,9,5,0,19,1,Reassign Workers
+117,261,19,40,4,3,0,15,3,Increase Overtime
+118,305,37,43,10,1,1,31,3,Add 1 shift/week
+119,259,57,67,10,3,1,28,2,Add 1 shift/week
+120,147,12,23,14,3,0,23,0,No Change
+121,173,19,72,12,4,0,17,3,Add 1 shift/week
+122,325,59,38,15,6,0,51,2,Reassign Workers
+123,185,59,61,14,10,0,37,2,Add 1 shift/week
+124,173,23,1,5,7,1,27,0,Add 1 shift/week
+125,238,37,62,9,3,1,23,2,Increase Overtime
+126,213,27,2,15,2,1,41,1,Reassign Workers
+127,211,42,63,11,5,0,26,1,Increase Overtime
+128,232,21,11,1,10,1,19,3,Increase Overtime
+129,190,16,45,9,4,1,17,2,Add 1 shift/week
+130,189,22,44,13,6,0,25,0,Add 1 shift/week
+131,304,58,93,11,1,1,15,1,No Change
+132,361,9,16,15,4,0,22,2,Add 1 shift/week
+133,315,16,2,12,3,1,27,0,No Change
+134,188,12,16,8,9,0,18,0,No Change
+135,358,31,51,5,1,1,20,2,Reassign Workers
+136,139,12,92,8,4,1,8,3,Reassign Workers
+137,194,41,74,12,6,0,22,3,No Change
+138,131,35,13,12,5,1,42,3,Increase Overtime
+139,278,9,98,9,1,1,9,0,No Change
+140,250,35,44,0,5,0,19,2,Add 1 shift/week
+141,142,25,11,0,9,0,22,2,No Change
+142,191,7,96,9,5,0,9,3,Increase Overtime
+143,213,15,5,13,10,1,27,3,Increase Overtime
+144,256,45,66,1,10,0,16,1,Add 1 shift/week
+145,256,24,42,8,7,1,21,3,Reassign Workers
+146,212,47,54,6,1,0,27,0,Add 1 shift/week
+147,215,27,80,1,1,1,6,3,Reassign Workers
+148,110,20,74,9,3,0,14,0,No Change
+149,269,60,86,8,9,0,16,3,Add 1 shift/week
+150,147,39,29,4,1,1,31,0,Increase Overtime
+151,342,37,6,8,9,1,42,0,Reassign Workers
+152,110,29,63,4,2,1,14,2,Increase Overtime
+153,256,42,30,7,7,1,36,0,Increase Overtime
+154,285,44,63,6,4,0,22,3,Increase Overtime
+155,153,9,82,8,7,0,9,1,Add 1 shift/week
+156,355,43,47,10,10,0,32,1,Add 1 shift/week
+157,278,54,54,15,2,1,39,3,No Change
+158,94,16,92,1,10,0,2,0,Increase Overtime
+159,104,33,16,9,2,0,36,3,Reassign Workers
+160,165,24,52,15,2,1,26,0,Increase Overtime
+161,205,38,92,2,1,0,5,2,Add 1 shift/week
+162,182,58,22,10,10,1,55,3,Add 1 shift/week
+163,365,15,83,12,9,0,14,0,Increase Overtime
+164,182,19,24,0,6,1,14,2,Reassign Workers
+165,116,41,96,8,6,1,9,1,Add 1 shift/week
+166,272,42,4,2,4,0,42,0,Reassign Workers
+167,249,58,30,4,9,1,44,3,No Change
+168,201,55,69,9,9,1,26,0,Reassign Workers
+169,178,22,18,0,3,1,18,3,Reassign Workers
+170,109,39,28,7,10,0,35,1,Reassign Workers
+171,325,25,25,7,6,1,25,3,Increase Overtime
+172,353,36,20,14,3,1,42,1,Reassign Workers
+173,155,36,16,14,8,0,44,1,Reassign Workers
+174,153,28,75,9,4,1,16,2,No Change
+175,276,55,4,15,7,0,67,3,Reassign Workers
+176,259,36,89,2,7,1,5,1,Increase Overtime
+177,365,23,45,11,4,1,23,2,Reassign Workers
+178,238,44,45,9,2,0,33,1,No Change
+179,131,32,16,13,8,0,39,0,Reassign Workers
+180,209,13,66,13,10,1,17,1,Reassign Workers
+181,130,40,89,6,1,1,10,2,Add 1 shift/week
+182,300,18,48,11,5,1,20,1,Reassign Workers
+183,311,29,37,13,2,1,31,3,Add 1 shift/week
+184,112,10,0,8,4,1,18,3,Increase Overtime
+185,194,12,2,2,7,0,13,2,No Change
+186,161,41,15,14,8,0,48,0,Reassign Workers
+187,171,36,93,13,6,0,15,2,No Change
+188,365,34,5,15,1,0,47,3,No Change
+189,322,38,27,12,10,1,39,1,Reassign Workers
+190,329,23,19,7,2,0,25,1,No Change
+191,236,24,58,0,5,0,10,2,Reassign Workers
+192,184,21,55,10,8,1,19,0,Increase Overtime
+193,362,33,54,14,4,1,29,3,Reassign Workers
+194,276,21,18,6,8,1,23,2,No Change
+195,340,57,16,11,7,1,58,3,No Change
+196,126,56,18,0,10,0,45,0,Add 1 shift/week
+197,177,37,61,8,2,1,22,0,Increase Overtime
+198,157,52,30,15,10,0,51,1,Add 1 shift/week
+199,163,12,100,0,7,1,0,0,No Change
+200,243,28,90,11,1,0,13,3,No Change
+201,356,11,5,3,1,0,13,3,Reassign Workers
+202,175,12,19,10,8,0,19,3,Increase Overtime
+203,169,34,91,13,1,1,16,1,No Change
+204,168,55,71,0,10,1,15,1,No Change
+205,130,29,12,0,2,1,25,3,Add 1 shift/week
+206,219,31,68,14,4,0,23,0,No Change
+207,174,39,15,0,9,1,33,0,Reassign Workers
+208,137,60,40,4,8,1,40,1,Reassign Workers
+209,188,36,68,8,6,0,19,2,Add 1 shift/week
+210,333,26,39,10,9,0,25,3,No Change
+211,355,8,35,3,10,0,8,2,Increase Overtime
+212,362,41,86,13,5,1,18,0,No Change
+213,301,25,43,14,2,1,28,2,Increase Overtime
+214,152,16,18,3,8,0,16,0,Reassign Workers
+215,326,40,86,3,4,0,8,1,Add 1 shift/week
+216,181,34,49,2,3,1,19,3,Reassign Workers
+217,168,12,48,14,7,1,20,2,Reassign Workers
+218,279,53,18,4,5,0,47,1,No Change
+219,154,13,3,1,10,1,13,0,Increase Overtime
+220,242,55,73,2,2,0,16,0,No Change
+221,126,34,45,15,9,1,33,0,Increase Overtime
+222,241,54,65,11,6,0,29,2,No Change
+223,339,40,21,3,8,1,34,1,Increase Overtime
+224,163,46,39,5,5,1,33,0,Add 1 shift/week
+225,354,57,28,9,3,0,50,3,Increase Overtime
+226,327,43,64,14,5,1,29,3,Add 1 shift/week
+227,323,7,88,13,9,0,13,2,No Change
+228,170,31,27,15,4,1,37,3,Reassign Workers
+229,123,36,26,11,2,1,37,2,No Change
+230,355,26,4,1,6,0,25,0,Add 1 shift/week
+231,314,10,22,3,2,1,10,0,Reassign Workers
+232,105,16,75,8,5,1,12,0,Reassign Workers
+233,362,38,51,7,3,1,25,1,Increase Overtime
+234,168,48,95,11,1,1,13,3,Add 1 shift/week
+235,271,58,84,13,8,1,22,3,Increase Overtime
+236,144,46,71,14,5,0,27,2,Increase Overtime
+237,299,19,68,10,6,1,16,1,Reassign Workers
+238,307,54,61,11,4,1,32,1,Add 1 shift/week
+239,249,29,53,10,7,0,23,0,Reassign Workers
+240,304,52,79,11,9,1,21,2,Increase Overtime
+241,150,11,56,3,1,1,7,0,Reassign Workers
+242,102,39,96,9,4,0,10,0,Increase Overtime
+243,252,31,7,2,9,0,30,0,Increase Overtime
+244,169,25,42,12,1,1,26,2,No Change
+245,225,42,26,11,9,1,42,2,No Change
+246,131,22,71,1,5,0,7,2,No Change
+247,329,41,84,1,5,0,7,0,Increase Overtime
+248,249,53,66,8,5,1,26,1,Increase Overtime
+249,110,14,3,1,7,0,14,2,No Change
+250,281,7,32,14,10,0,18,2,Reassign Workers
+251,334,37,31,7,2,0,32,2,Reassign Workers
+252,211,24,22,11,8,1,29,2,No Change
+253,298,45,44,13,6,1,38,0,Reassign Workers
+254,305,58,2,1,6,1,57,0,No Change
+255,305,24,58,12,7,0,22,3,Reassign Workers
+256,353,41,44,1,5,0,23,3,Increase Overtime
+257,364,24,39,15,9,1,29,0,Reassign Workers
+258,148,41,42,0,7,0,23,1,Add 1 shift/week
+259,278,30,87,10,10,1,13,3,No Change
+260,159,51,26,4,2,1,41,2,Add 1 shift/week
+261,185,36,69,5,10,0,16,0,Increase Overtime
+262,210,47,3,6,1,0,51,0,No Change
+263,128,21,9,14,1,0,33,3,Increase Overtime
+264,343,28,78,12,6,1,18,1,No Change
+265,138,30,14,1,6,1,26,1,Reassign Workers
+266,233,27,2,2,6,0,28,1,Increase Overtime
+267,277,34,96,14,1,0,15,2,Reassign Workers
+268,103,37,44,11,6,0,31,2,Increase Overtime
+269,125,28,64,3,1,0,13,1,Reassign Workers
+270,117,8,68,0,8,1,2,1,Add 1 shift/week
+271,194,30,86,5,9,0,9,3,No Change
+272,293,59,52,6,2,1,34,0,Add 1 shift/week
+273,279,36,51,6,5,0,23,2,Increase Overtime
+274,281,26,47,6,4,1,19,2,No Change
+275,140,21,79,10,6,0,14,1,Add 1 shift/week
+276,293,16,89,8,7,0,9,2,Reassign Workers
+277,104,39,67,7,7,1,19,2,Increase Overtime
+278,304,48,44,11,1,1,37,2,Reassign Workers
+279,213,60,33,12,8,0,52,1,Add 1 shift/week
+280,240,50,80,0,6,1,10,0,Increase Overtime
+281,262,41,29,6,7,1,35,3,Increase Overtime
+282,277,47,85,4,5,0,11,2,No Change
+283,283,28,38,2,10,0,19,2,Increase Overtime
+284,347,50,46,15,2,1,42,1,Reassign Workers
+285,265,23,33,5,5,1,20,0,No Change
+286,161,60,54,4,3,0,31,2,Add 1 shift/week
+287,141,47,70,12,3,0,26,0,Add 1 shift/week
+288,179,38,39,6,3,0,29,2,Add 1 shift/week
+289,284,25,59,3,10,0,13,1,No Change
+290,216,57,24,5,1,0,48,1,Reassign Workers
+291,93,45,81,12,6,0,20,1,Reassign Workers
+292,97,9,46,4,7,1,8,2,Add 1 shift/week
+293,120,27,21,9,3,1,30,0,Reassign Workers
+294,354,25,82,7,2,0,11,2,Reassign Workers
+295,212,60,22,6,6,0,52,3,Reassign Workers
+296,352,38,26,11,10,1,39,2,Increase Overtime
+297,265,57,61,1,2,0,23,3,Reassign Workers
+298,167,9,83,13,1,0,14,1,Reassign Workers
+299,173,52,64,0,7,0,18,3,No Change
+300,279,47,36,15,6,1,45,2,Increase Overtime
+301,279,49,21,8,8,0,46,0,Increase Overtime
+302,170,12,7,13,2,0,24,3,Add 1 shift/week
+303,314,42,22,13,4,0,45,1,Reassign Workers
+304,315,50,81,14,5,1,23,3,No Change
+305,150,31,73,7,8,1,15,0,Add 1 shift/week
+306,229,50,25,11,3,1,48,2,Add 1 shift/week
+307,244,24,64,12,8,0,20,1,Add 1 shift/week
+308,132,18,73,12,5,0,16,0,No Change
+309,162,19,22,10,6,1,24,3,No Change
+310,189,57,87,6,4,0,13,2,Reassign Workers
+311,106,11,31,15,5,0,22,2,No Change
+312,207,58,66,10,7,0,29,1,Reassign Workers
+313,355,58,50,0,7,0,29,2,Reassign Workers
+314,276,53,93,7,2,0,10,2,Reassign Workers
+315,230,46,94,13,5,0,15,3,Increase Overtime
+316,202,25,92,15,5,1,17,0,Reassign Workers
+317,195,29,32,7,1,0,26,0,Add 1 shift/week
+318,100,49,28,6,9,1,41,0,No Change
+319,338,50,44,8,3,0,36,3,Add 1 shift/week
+320,141,41,56,14,7,1,32,2,Add 1 shift/week
+321,225,53,61,15,10,0,35,2,Reassign Workers
+322,333,12,93,13,2,1,13,1,No Change
+323,130,15,91,0,10,1,1,3,Add 1 shift/week
+324,100,37,75,5,1,0,14,1,Increase Overtime
+325,212,12,69,1,9,0,4,2,Increase Overtime
+326,169,36,62,3,1,1,16,1,Increase Overtime
+327,311,46,9,1,4,0,42,0,No Change
+328,226,33,54,2,8,0,17,1,Reassign Workers
+329,94,22,29,8,5,0,23,3,Reassign Workers
+330,102,37,12,0,1,1,32,2,Add 1 shift/week
+331,194,13,56,6,7,1,11,1,No Change
+332,300,30,58,9,6,1,21,1,Add 1 shift/week
+333,204,21,2,15,6,0,35,1,Increase Overtime
+334,329,56,7,8,4,1,60,2,Increase Overtime
+335,277,42,71,8,4,0,20,2,No Change
+336,103,11,5,4,10,1,14,2,Add 1 shift/week
+337,153,39,25,5,6,1,34,1,No Change
+338,188,55,44,11,10,0,41,1,Increase Overtime
+339,155,50,14,7,9,1,50,2,Increase Overtime
+340,343,41,60,13,5,1,29,3,Increase Overtime
+341,256,47,55,6,9,1,27,2,Add 1 shift/week
+342,158,18,75,2,5,0,6,1,Reassign Workers
+343,242,22,85,4,1,0,7,2,Add 1 shift/week
+344,245,53,68,9,10,1,25,1,Increase Overtime
+345,329,22,90,0,10,1,2,2,Increase Overtime
+346,310,15,99,3,6,0,3,3,Increase Overtime
+347,282,37,16,0,9,0,31,2,No Change
+348,145,12,82,15,8,0,17,0,Reassign Workers
+349,314,23,51,11,6,0,22,2,Increase Overtime
+350,92,42,45,9,9,0,32,1,No Change
+351,319,16,76,5,1,1,8,1,Increase Overtime
+352,321,38,25,7,6,1,35,3,Add 1 shift/week
+353,234,10,79,5,3,0,7,0,No Change
+354,193,39,2,3,1,1,41,0,Reassign Workers
+355,344,37,37,5,9,0,28,0,Add 1 shift/week
+356,130,39,6,10,5,1,46,3,Reassign Workers
+357,160,21,18,7,1,1,24,0,Reassign Workers
+358,134,43,39,12,1,0,38,0,Add 1 shift/week
+359,207,27,80,12,6,0,17,1,Reassign Workers
+360,139,50,56,5,2,0,27,0,Add 1 shift/week
+361,112,23,41,10,2,1,23,3,Increase Overtime
+362,128,55,28,1,3,0,40,2,No Change
+363,202,47,82,3,5,0,11,1,Increase Overtime
+364,236,10,51,14,4,0,18,1,Add 1 shift/week
+365,91,8,100,0,7,0,0,0,No Change
+366,212,34,84,1,7,1,6,1,No Change
+367,278,22,32,6,9,0,20,2,Reassign Workers
+368,273,56,87,14,8,1,21,3,Reassign Workers
+369,283,54,33,3,5,1,39,3,Reassign Workers
+370,341,50,40,15,1,1,45,0,Add 1 shift/week
+371,137,33,60,11,5,0,24,3,Increase Overtime
+372,307,19,71,3,7,1,8,0,Add 1 shift/week
+373,109,42,44,1,7,1,24,2,Reassign Workers
+374,160,42,89,6,7,1,10,0,Reassign Workers
+375,161,34,76,2,8,1,10,1,Reassign Workers
+376,197,21,74,15,5,1,20,3,Reassign Workers
+377,119,32,51,5,7,0,20,1,Increase Overtime
+378,201,10,63,6,1,0,9,0,Add 1 shift/week
+379,362,11,24,6,3,1,14,1,Increase Overtime
+380,296,29,12,5,2,0,30,2,Increase Overtime
+381,349,8,40,1,7,1,5,1,No Change
+382,156,11,7,0,8,0,10,1,Reassign Workers
+383,322,19,5,11,5,0,29,0,No Change
+384,284,31,18,10,5,0,35,1,Add 1 shift/week
+385,110,34,45,14,3,1,32,3,Increase Overtime
+386,283,30,97,9,1,1,9,2,Add 1 shift/week
+387,326,17,66,3,7,0,8,3,Increase Overtime
+388,164,53,70,4,6,0,19,2,No Change
+389,142,11,41,12,7,0,18,3,Reassign Workers
+390,133,18,53,5,6,1,13,1,No Change
+391,241,59,13,2,9,1,53,0,Reassign Workers
+392,356,20,67,12,9,0,18,2,No Change
+393,229,38,38,13,5,1,36,3,Increase Overtime
+394,195,52,0,15,8,1,67,2,Reassign Workers
+395,283,58,99,11,6,1,11,3,Increase Overtime
+396,327,29,91,10,9,1,12,0,No Change
+397,289,57,49,4,4,1,33,1,Add 1 shift/week
+398,100,28,98,8,8,0,8,2,Add 1 shift/week
+399,174,43,97,3,8,0,4,0,No Change
+400,249,14,61,15,4,1,20,3,Increase Overtime
+401,350,16,95,14,3,0,14,1,Add 1 shift/week
+402,290,34,9,5,7,0,35,0,Increase Overtime
+403,217,25,65,13,2,1,21,0,Increase Overtime
+404,210,26,6,6,10,1,30,0,Add 1 shift/week
+405,288,8,88,9,9,0,9,0,Add 1 shift/week
+406,359,40,44,15,2,0,37,0,Add 1 shift/week
+407,188,11,91,4,9,0,4,2,No Change
+408,91,57,49,5,8,0,34,3,No Change
+409,197,7,54,12,7,0,15,0,Increase Overtime
+410,270,34,73,6,1,1,15,0,Reassign Workers
+411,233,19,42,8,4,1,19,1,Reassign Workers
+412,153,26,9,4,5,1,27,2,Add 1 shift/week
+413,106,39,21,14,6,1,44,0,No Change
+414,254,49,50,2,7,1,26,0,Reassign Workers
+415,147,43,91,15,7,0,18,3,Add 1 shift/week
+416,359,44,63,5,5,1,21,2,No Change
+417,185,42,60,4,6,0,20,1,Increase Overtime
+418,348,50,76,10,6,0,22,0,No Change
+419,129,56,93,14,7,1,17,1,Add 1 shift/week
+420,351,20,92,8,5,1,9,1,Reassign Workers
+421,285,54,88,5,10,0,11,0,Increase Overtime
+422,140,47,55,12,6,0,33,0,Add 1 shift/week
+423,138,24,17,10,4,1,29,0,Add 1 shift/week
+424,159,35,26,1,2,0,26,1,No Change
+425,214,12,76,7,10,1,9,2,No Change
+426,323,59,52,9,10,0,37,2,Increase Overtime
+427,159,42,13,12,5,1,48,2,Increase Overtime
+428,344,25,7,5,7,1,28,3,Reassign Workers
+429,304,25,1,6,6,0,30,2,Increase Overtime
+430,116,60,52,15,7,0,43,3,Reassign Workers
+431,217,37,82,11,10,1,17,3,Add 1 shift/week
+432,208,16,52,14,3,0,21,0,Reassign Workers
+433,249,16,80,4,1,0,7,2,No Change
+434,220,19,50,7,1,0,16,1,No Change
+435,364,27,36,0,9,1,17,1,No Change
+436,152,31,93,14,9,0,16,1,Reassign Workers
+437,159,8,8,11,7,0,18,3,Reassign Workers
+438,150,41,52,4,8,0,23,0,Add 1 shift/week
+439,279,30,74,13,5,1,20,3,No Change
+440,335,33,36,8,5,1,29,2,Reassign Workers
+441,112,53,5,4,7,1,54,1,Increase Overtime
+442,171,27,74,8,8,1,15,0,Add 1 shift/week
+443,303,48,89,14,1,0,19,0,No Change
+444,291,53,9,11,2,1,59,2,No Change
+445,109,53,10,2,10,0,49,3,Add 1 shift/week
+446,95,50,25,2,4,1,39,0,No Change
+447,156,19,98,14,2,1,14,1,Add 1 shift/week
+448,268,60,83,15,9,1,25,3,Increase Overtime
+449,239,17,95,14,6,0,14,0,Add 1 shift/week
+450,318,16,76,9,5,0,12,2,No Change
+451,143,15,16,4,4,0,16,0,Reassign Workers
+452,144,38,24,8,6,1,36,1,Increase Overtime
+453,364,8,76,2,4,0,3,0,No Change
+454,327,46,64,0,8,0,16,2,Reassign Workers
+455,177,33,31,8,5,0,30,2,Add 1 shift/week
+456,224,7,93,15,9,1,15,2,Increase Overtime
+457,203,43,50,2,2,0,23,0,Reassign Workers
+458,117,50,89,0,8,1,5,0,No Change
+459,105,10,94,12,3,0,12,2,Increase Overtime
+460,196,51,96,12,8,1,14,3,No Change
+461,136,17,54,8,10,0,15,2,Increase Overtime
+462,360,57,37,0,6,1,35,2,No Change
+463,319,42,79,5,2,0,13,0,No Change
+464,192,31,27,9,7,1,31,1,Reassign Workers
+465,120,25,57,6,7,0,16,1,Reassign Workers
+466,235,51,47,4,3,0,31,3,Increase Overtime
+467,363,31,92,10,4,0,12,0,Reassign Workers
+468,155,34,32,11,8,1,34,2,Add 1 shift/week
+469,268,12,10,5,9,1,15,3,Add 1 shift/week
+470,257,55,98,3,2,0,4,3,No Change
+471,357,49,89,5,7,1,10,0,No Change
+472,147,43,49,2,3,1,23,2,Increase Overtime
+473,312,11,32,7,3,0,14,0,Add 1 shift/week
+474,261,42,100,0,10,1,0,0,No Change
+475,351,21,41,1,7,0,13,3,Add 1 shift/week
+476,108,24,83,1,6,1,5,3,Reassign Workers
+477,96,42,77,7,8,0,16,0,Increase Overtime
+478,211,16,39,10,9,1,19,0,Reassign Workers
+479,194,34,10,10,6,1,40,3,Increase Overtime
+480,90,28,54,2,9,0,14,0,Increase Overtime
+481,285,58,30,9,5,1,49,3,No Change
+482,265,18,45,5,2,1,14,1,No Change
+483,92,25,49,13,10,0,25,1,Add 1 shift/week
+484,156,58,72,3,4,1,19,3,Increase Overtime
+485,227,24,90,10,10,0,12,2,No Change
+486,219,32,39,1,8,0,20,0,Add 1 shift/week
+487,91,24,87,10,3,0,13,3,Increase Overtime
+488,358,59,95,1,10,1,3,0,No Change
+489,130,41,33,11,3,0,38,3,Add 1 shift/week
+490,165,9,10,10,4,1,18,1,No Change
+491,191,26,53,11,9,0,23,1,Reassign Workers
+492,91,28,92,6,10,0,8,1,Reassign Workers
+493,353,48,48,3,10,1,27,1,No Change
+494,147,45,93,3,10,0,6,1,Increase Overtime
+495,306,10,79,1,3,0,3,3,Add 1 shift/week
+496,138,28,40,10,9,1,26,2,Increase Overtime
+497,329,57,57,12,1,0,36,2,Add 1 shift/week
+498,177,12,98,1,3,0,1,2,Reassign Workers
+499,271,15,6,1,8,0,15,3,Add 1 shift/week
+500,275,17,45,1,8,1,10,1,Add 1 shift/week
+501,128,33,49,7,4,0,23,2,Add 1 shift/week
+502,172,52,72,6,2,0,20,2,No Change
+503,355,45,60,1,2,1,19,1,Add 1 shift/week
+504,104,60,49,15,4,0,45,3,Add 1 shift/week
+505,317,59,82,14,6,0,24,1,Reassign Workers
+506,319,24,61,11,8,0,20,0,Reassign Workers
+507,198,56,42,14,10,1,46,3,Increase Overtime
+508,182,18,9,10,2,1,26,2,Increase Overtime
+509,345,12,39,4,8,0,11,3,Increase Overtime
+510,365,60,100,0,5,0,0,0,No Change
+511,363,49,56,2,7,0,23,3,Add 1 shift/week
+512,179,52,92,8,2,0,12,1,Reassign Workers
+513,204,50,72,8,10,1,22,3,Increase Overtime
+514,102,13,5,12,4,0,24,2,No Change
+515,247,23,99,5,8,0,5,2,No Change
+516,288,60,33,12,6,1,52,2,Add 1 shift/week
+517,334,55,69,7,10,0,24,2,No Change
+518,131,18,57,7,7,1,14,2,No Change
+519,106,50,58,9,9,0,30,1,Add 1 shift/week
+520,163,12,0,2,7,0,14,1,No Change
+521,203,12,67,5,6,0,8,3,Add 1 shift/week
+522,136,42,61,14,3,0,30,2,Reassign Workers
+523,187,46,97,14,1,1,15,3,Reassign Workers
+524,168,50,56,12,1,0,34,1,Reassign Workers
+525,173,59,32,7,9,1,47,3,Increase Overtime
+526,270,23,91,6,2,0,8,2,Add 1 shift/week
+527,283,37,44,0,3,0,20,3,Increase Overtime
+528,253,33,77,1,4,1,8,3,No Change
+529,301,36,63,13,7,0,26,2,Increase Overtime
+530,289,9,57,9,7,1,12,0,Increase Overtime
+531,222,58,45,0,3,0,31,2,Add 1 shift/week
+532,214,31,10,11,3,1,38,3,Reassign Workers
+533,211,16,83,2,4,1,4,2,No Change
+534,156,49,97,1,3,1,2,1,Increase Overtime
+535,171,24,37,15,4,1,30,0,Add 1 shift/week
+536,233,37,39,5,7,0,27,2,Increase Overtime
+537,316,57,88,7,1,1,13,2,Add 1 shift/week
+538,177,31,23,3,5,1,26,2,Increase Overtime
+539,100,37,10,4,4,0,37,3,Increase Overtime
+540,170,58,45,7,8,1,38,3,Add 1 shift/week
+541,360,51,66,7,1,0,24,0,Add 1 shift/week
+542,179,36,78,5,7,0,12,3,Increase Overtime
+543,312,51,73,2,2,0,15,0,Add 1 shift/week
+544,302,43,44,14,2,1,38,2,No Change
+545,209,9,87,13,1,0,14,2,Add 1 shift/week
+546,311,42,48,3,1,1,24,2,Add 1 shift/week
+547,104,58,22,3,6,1,48,0,No Change
+548,158,35,70,8,8,1,18,1,Increase Overtime
+549,213,38,29,14,5,1,40,2,Reassign Workers
+550,223,11,29,1,2,0,8,2,Reassign Workers
+551,242,39,69,14,2,0,26,1,Increase Overtime
+552,170,53,56,14,2,1,37,2,Increase Overtime
+553,347,53,50,5,10,1,31,1,Increase Overtime
+554,272,49,1,15,4,1,63,3,Increase Overtime
+555,205,34,36,15,10,0,36,0,Reassign Workers
+556,360,40,32,5,3,0,32,0,Increase Overtime
+557,96,12,17,9,10,1,18,0,Add 1 shift/week
+558,320,23,30,14,10,0,30,2,Reassign Workers
+559,226,38,96,8,10,1,9,1,Reassign Workers
+560,171,40,2,15,8,0,54,0,No Change
+561,275,36,82,15,3,0,21,1,Reassign Workers
+562,238,17,75,12,1,1,16,1,No Change
+563,174,19,47,15,4,0,25,0,Increase Overtime
+564,179,48,21,7,3,0,44,0,Increase Overtime
+565,189,17,40,9,8,0,19,2,Reassign Workers
+566,309,24,91,2,5,0,4,3,Reassign Workers
+567,235,28,9,1,6,0,26,2,Reassign Workers
+568,253,30,73,13,3,1,21,2,Add 1 shift/week
+569,143,19,22,6,4,0,20,0,Increase Overtime
+570,188,22,66,14,6,1,21,2,Reassign Workers
+571,259,21,70,9,9,0,15,0,Increase Overtime
+572,114,41,3,6,7,0,45,0,No Change
+573,348,31,16,4,5,0,30,3,Increase Overtime
+574,105,34,81,5,1,0,11,1,Reassign Workers
+575,200,53,35,11,2,0,45,0,Add 1 shift/week
+576,221,13,1,7,4,0,19,3,Add 1 shift/week
+577,159,46,34,10,4,0,40,3,Reassign Workers
+578,295,9,78,5,7,1,6,1,Reassign Workers
+579,348,52,36,9,1,0,42,3,Reassign Workers
+580,344,49,29,14,10,1,48,0,Increase Overtime
+581,168,23,5,13,6,1,34,0,Reassign Workers
+582,268,12,21,12,5,0,21,0,Add 1 shift/week
+583,103,42,46,15,3,1,37,0,Reassign Workers
+584,127,21,50,5,1,0,15,0,No Change
+585,161,59,35,9,4,0,47,1,Add 1 shift/week
+586,139,49,100,0,8,0,0,0,No Change
+587,173,56,14,5,7,1,53,2,Add 1 shift/week
+588,168,28,64,4,1,1,14,3,Increase Overtime
+589,325,19,53,12,7,0,20,3,Add 1 shift/week
+590,345,27,32,2,5,1,20,1,Add 1 shift/week
+591,122,40,81,5,7,0,12,2,Increase Overtime
+592,331,7,55,11,1,0,14,3,Reassign Workers
+593,212,48,10,5,6,0,48,1,No Change
+594,241,13,60,3,1,0,8,3,Reassign Workers
+595,239,30,46,0,3,0,16,3,Increase Overtime
+596,109,20,65,6,2,0,13,2,Reassign Workers
+597,115,37,75,6,5,1,15,1,Reassign Workers
+598,117,57,65,1,8,0,20,3,Add 1 shift/week
+599,138,59,91,8,5,0,13,2,Reassign Workers
+600,307,27,9,9,10,0,33,3,Increase Overtime
+601,222,16,54,13,6,0,20,2,Add 1 shift/week
+602,148,45,93,11,9,1,14,3,Reassign Workers
+603,295,42,95,14,4,1,16,0,Reassign Workers
+604,171,19,25,5,3,1,19,0,Increase Overtime
+605,103,54,36,0,3,1,34,2,Reassign Workers
+606,255,16,11,10,1,0,24,2,No Change
+607,321,52,55,15,3,1,38,1,Add 1 shift/week
+608,174,26,69,2,1,1,10,3,Increase Overtime
+609,201,52,42,12,2,1,42,1,Add 1 shift/week
+610,141,27,43,1,7,0,16,1,Increase Overtime
+611,159,14,61,2,3,1,7,1,Increase Overtime
+612,304,18,45,10,6,0,19,0,Add 1 shift/week
+613,248,56,84,2,1,0,10,2,Add 1 shift/week
+614,190,24,20,15,6,0,34,2,No Change
+615,332,27,19,3,6,0,24,0,Add 1 shift/week
+616,269,24,88,3,7,1,5,3,Add 1 shift/week
+617,319,42,22,8,9,0,40,2,No Change
+618,236,56,60,13,6,1,35,1,No Change
+619,315,52,91,14,7,1,18,3,No Change
+620,212,21,23,2,2,1,18,2,Add 1 shift/week
+621,282,25,44,7,8,0,21,1,Increase Overtime
+622,359,54,12,5,9,0,52,0,Add 1 shift/week
+623,340,21,51,10,7,1,20,0,Increase Overtime
+624,344,58,36,11,9,1,48,0,Add 1 shift/week
+625,127,26,89,1,7,0,3,2,No Change
+626,270,59,94,15,10,0,18,2,No Change
+627,228,27,50,3,9,1,16,0,Add 1 shift/week
+628,205,48,81,7,9,1,16,0,Reassign Workers
+629,210,45,42,13,2,1,39,2,Reassign Workers
+630,337,12,16,4,4,0,14,2,Reassign Workers
+631,192,49,17,2,7,0,42,3,No Change
+632,271,47,44,2,3,1,28,3,Increase Overtime
+633,239,19,74,9,8,0,13,0,Increase Overtime
+634,269,40,17,5,3,1,38,0,No Change
+635,300,56,77,2,7,1,14,3,Reassign Workers
+636,335,11,76,9,4,1,11,3,Reassign Workers
+637,265,40,39,3,1,1,27,3,Increase Overtime
+638,212,50,68,8,7,1,24,1,Increase Overtime
+639,307,56,16,7,8,1,54,3,Reassign Workers
+640,254,49,74,5,9,1,17,1,Increase Overtime
+641,138,37,85,9,8,1,14,1,No Change
+642,343,27,85,4,3,1,8,0,Increase Overtime
+643,334,13,4,0,4,1,12,3,Add 1 shift/week
+644,338,59,32,10,7,1,50,3,Reassign Workers
+645,219,42,69,11,5,1,24,0,No Change
+646,152,35,50,15,8,0,32,0,No Change
+647,144,58,59,0,3,0,23,0,Reassign Workers
+648,331,45,45,8,7,1,32,0,Add 1 shift/week
+649,218,48,51,1,10,0,24,2,Increase Overtime
+650,298,32,1,12,1,0,43,2,Reassign Workers
+651,180,52,90,12,4,1,17,3,Reassign Workers
+652,92,11,71,10,9,1,13,3,Increase Overtime
+653,341,27,44,14,2,1,29,2,Reassign Workers
+654,328,14,4,15,5,0,28,0,No Change
+655,356,15,52,5,6,1,12,1,Add 1 shift/week
+656,338,16,57,7,5,0,13,3,No Change
+657,298,11,88,5,4,1,6,1,Increase Overtime
+658,188,32,29,12,5,0,34,0,Increase Overtime
+659,318,18,30,9,10,0,21,3,Increase Overtime
+660,211,39,76,10,6,0,19,2,Add 1 shift/week
+661,208,21,87,7,2,0,9,1,Increase Overtime
+662,278,54,0,14,9,0,68,1,Add 1 shift/week
+663,121,25,74,4,6,0,10,1,Add 1 shift/week
+664,314,15,94,11,8,1,11,1,Reassign Workers
+665,129,60,13,5,3,0,57,3,Reassign Workers
+666,141,28,8,0,10,0,25,3,No Change
+667,220,40,42,1,1,1,24,2,Increase Overtime
+668,112,32,25,7,8,1,31,3,Add 1 shift/week
+669,267,57,45,6,9,1,37,1,No Change
+670,202,41,38,10,5,1,35,2,Add 1 shift/week
+671,165,28,78,13,10,0,19,0,Increase Overtime
+672,357,48,16,5,4,1,45,3,Reassign Workers
+673,243,46,78,0,7,1,10,2,Reassign Workers
+674,336,25,53,1,9,1,12,3,Reassign Workers
+675,295,59,60,2,10,1,25,0,Reassign Workers
+676,170,44,20,7,7,1,42,1,Increase Overtime
+677,176,38,18,4,9,0,35,3,Add 1 shift/week
+678,237,26,55,11,6,0,22,1,Reassign Workers
+679,159,42,71,9,2,1,21,2,Reassign Workers
+680,134,48,16,12,1,1,52,3,Reassign Workers
+681,177,12,54,4,5,0,9,2,No Change
+682,168,59,43,7,10,0,40,1,Add 1 shift/week
+683,365,60,73,6,2,0,22,2,No Change
+684,309,46,96,10,3,0,11,0,Add 1 shift/week
+685,117,36,66,15,10,0,27,1,No Change
+686,313,33,52,7,9,1,22,2,No Change
+687,265,22,5,6,6,0,26,3,Add 1 shift/week
+688,91,32,32,11,3,0,32,0,No Change
+689,97,18,24,13,9,0,26,1,Reassign Workers
+690,150,32,85,14,5,0,18,0,Reassign Workers
+691,251,53,55,14,1,1,37,2,Add 1 shift/week
+692,231,26,78,6,1,0,11,1,Increase Overtime
+693,198,8,58,4,2,1,7,3,Reassign Workers
+694,296,42,58,2,3,0,19,2,No Change
+695,211,22,56,0,1,0,9,3,No Change
+696,122,28,97,10,8,1,10,0,Add 1 shift/week
+697,215,55,38,7,5,0,41,0,No Change
+698,179,18,17,14,9,1,28,1,Add 1 shift/week
+699,255,60,29,12,3,0,54,0,Reassign Workers
+700,217,16,63,0,10,0,5,2,Increase Overtime
+701,178,8,5,7,10,0,14,1,Increase Overtime
+702,147,14,2,4,2,1,17,2,Add 1 shift/week
+703,141,44,4,5,9,0,47,1,Increase Overtime
+704,234,9,97,0,4,0,1,0,Reassign Workers
+705,263,54,73,10,2,0,24,1,Add 1 shift/week
+706,179,52,72,6,6,1,20,0,Increase Overtime
+707,150,31,99,10,2,1,10,3,No Change
+708,212,52,65,0,7,1,18,0,Increase Overtime
+709,178,13,55,5,9,1,10,3,Add 1 shift/week
+710,350,11,4,3,3,1,13,2,Reassign Workers
+711,303,27,49,0,1,1,13,0,Increase Overtime
+712,281,43,73,14,2,0,25,1,No Change
+713,346,34,90,5,1,0,8,0,Add 1 shift/week
+714,201,45,58,13,1,1,31,3,No Change
+715,123,46,61,7,3,1,24,3,Reassign Workers
+716,188,10,86,13,3,1,14,3,Add 1 shift/week
+717,103,18,42,3,5,0,13,2,Reassign Workers
+718,149,31,37,5,10,1,24,0,No Change
+719,180,56,28,1,3,0,41,3,Add 1 shift/week
+720,283,14,34,1,8,1,10,2,Increase Overtime
+721,287,35,5,10,2,1,43,2,Increase Overtime
+722,172,43,97,15,7,1,16,2,Reassign Workers
+723,215,17,99,11,9,1,11,0,Reassign Workers
+724,307,57,45,12,5,1,43,1,Reassign Workers
+725,333,53,12,11,1,1,57,0,Increase Overtime
+726,337,20,65,5,10,0,12,3,Reassign Workers
+727,233,20,63,11,6,0,18,3,Reassign Workers
+728,353,27,98,5,3,1,5,0,Reassign Workers
+729,98,52,30,10,7,0,46,3,Increase Overtime
+730,271,9,28,3,5,1,9,0,Increase Overtime
+731,196,37,1,7,3,1,43,1,No Change
+732,329,56,68,3,6,1,20,2,Reassign Workers
+733,239,36,70,12,8,0,22,0,Reassign Workers
+734,190,52,21,14,2,0,55,0,Add 1 shift/week
+735,172,26,16,1,7,1,22,0,No Change
+736,326,32,10,9,8,0,37,0,Reassign Workers
+737,316,24,63,11,10,0,19,3,Reassign Workers
+738,298,31,96,10,8,1,11,1,Increase Overtime
+739,234,43,88,14,3,1,19,3,Reassign Workers
+740,228,34,10,5,3,0,35,2,Reassign Workers
+741,117,25,45,11,4,0,24,2,Increase Overtime
+742,114,52,80,10,7,1,20,2,No Change
+743,216,51,23,8,1,1,47,3,Increase Overtime
+744,128,60,62,7,3,0,29,2,Add 1 shift/week
+745,345,50,21,8,7,0,47,2,Reassign Workers
+746,256,48,1,11,8,1,58,1,Reassign Workers
+747,267,33,45,14,1,0,32,1,Add 1 shift/week
+748,306,23,23,1,10,0,18,2,Increase Overtime
+749,212,47,7,9,6,0,52,3,Reassign Workers
+750,136,7,100,0,2,1,0,0,No Change
+751,170,59,99,11,6,0,11,1,Add 1 shift/week
+752,134,56,91,10,9,0,15,3,No Change
+753,353,13,68,2,9,0,6,2,Reassign Workers
+754,354,35,66,12,6,1,23,2,Reassign Workers
+755,291,58,49,14,4,1,43,0,No Change
+756,105,33,78,9,1,1,16,0,Reassign Workers
+757,324,11,84,9,3,1,10,0,Reassign Workers
+758,230,58,36,9,5,0,46,2,Add 1 shift/week
+759,135,24,81,10,5,1,14,1,No Change
+760,260,43,47,11,9,0,33,2,Reassign Workers
+761,110,16,16,15,8,0,28,2,Reassign Workers
+762,252,7,41,9,1,1,13,1,Reassign Workers
+763,235,21,23,3,8,0,19,3,No Change
+764,166,59,30,2,8,1,43,1,Reassign Workers
+765,273,31,53,13,4,1,27,0,Reassign Workers
+766,205,58,7,5,4,1,58,3,Increase Overtime
+767,315,7,65,2,7,1,4,2,No Change
+768,123,51,81,7,10,0,16,0,Reassign Workers
+769,94,13,16,11,9,1,21,3,No Change
+770,220,31,80,11,8,0,17,0,Add 1 shift/week
+771,195,45,10,8,3,0,48,3,Increase Overtime
+772,209,21,52,1,6,1,11,2,Add 1 shift/week
+773,169,56,37,11,4,1,46,1,Add 1 shift/week
+774,119,27,100,0,9,1,0,0,No Change
+775,251,17,10,7,8,0,22,0,Add 1 shift/week
+776,300,32,83,6,9,1,11,2,Reassign Workers
+777,201,25,25,8,2,0,26,1,Reassign Workers
+778,246,50,53,13,5,0,36,3,Reassign Workers
+779,286,22,44,0,7,0,12,3,Reassign Workers
+780,189,50,69,8,3,0,23,1,Add 1 shift/week
+781,300,43,100,0,1,1,0,0,No Change
+782,273,22,60,9,10,1,17,3,Reassign Workers
+783,362,15,84,14,10,1,16,3,Add 1 shift/week
+784,351,40,30,2,5,1,30,2,Reassign Workers
+785,295,11,0,7,8,0,18,0,No Change
+786,340,59,61,1,7,1,24,1,Add 1 shift/week
+787,338,56,53,7,6,1,33,3,Reassign Workers
+788,242,16,5,4,6,1,19,0,Add 1 shift/week
+789,231,29,60,10,3,0,21,1,Increase Overtime
+790,323,12,29,3,4,1,11,1,Reassign Workers
+791,225,60,72,7,1,1,23,2,No Change
+792,258,57,13,8,1,1,57,2,Reassign Workers
+793,162,19,73,1,6,0,6,1,Reassign Workers
+794,264,44,26,8,8,1,40,1,Increase Overtime
+795,190,21,42,4,8,1,16,1,No Change
+796,189,36,1,5,8,1,40,2,No Change
+797,149,21,89,0,8,0,2,1,Increase Overtime
+798,186,56,25,2,1,1,44,3,No Change
+799,197,59,19,10,3,0,57,2,Increase Overtime
+800,123,49,56,1,6,1,22,2,No Change
+801,100,53,96,1,3,1,3,3,Increase Overtime
+802,116,9,52,4,7,0,8,3,Add 1 shift/week
+803,282,58,32,12,9,0,51,2,No Change
+804,241,45,87,14,5,1,19,0,Add 1 shift/week
+805,317,7,24,8,5,0,13,2,Reassign Workers
+806,228,10,44,15,10,0,20,2,No Change
+807,178,18,17,9,8,0,23,2,No Change
+808,199,35,48,11,2,1,29,0,No Change
+809,186,20,41,4,9,0,15,3,No Change
+810,121,18,80,13,6,1,16,3,No Change
+811,302,16,74,0,4,1,4,2,Add 1 shift/week
+812,333,46,69,1,10,1,15,1,No Change
+813,339,43,6,0,7,1,40,2,Add 1 shift/week
+814,340,58,53,13,5,0,40,1,Increase Overtime
+815,207,23,40,4,10,0,17,0,No Change
+816,200,44,100,0,2,0,0,0,No Change
+817,123,23,45,3,4,0,15,2,Add 1 shift/week
+818,250,57,70,6,9,0,23,3,Increase Overtime
+819,311,26,96,12,5,1,13,3,No Change
+820,260,31,88,13,2,0,16,3,Add 1 shift/week
+821,334,31,8,0,8,1,28,1,Add 1 shift/week
+822,154,36,11,13,5,0,45,2,Increase Overtime
+823,249,58,59,4,8,0,27,3,Reassign Workers
+824,258,36,99,6,3,0,6,3,Increase Overtime
+825,329,43,14,13,6,0,49,0,Reassign Workers
+826,110,55,68,9,6,1,26,3,No Change
+827,278,14,31,11,5,0,20,2,Reassign Workers
+828,347,53,30,13,9,1,50,0,No Change
+829,245,19,66,0,2,1,6,3,Increase Overtime
+830,327,41,50,14,2,1,34,0,Add 1 shift/week
+831,247,15,94,2,10,0,2,3,Add 1 shift/week
+832,332,15,11,14,3,1,27,0,No Change
+833,276,30,22,1,10,1,24,1,Reassign Workers
+834,350,13,1,7,3,0,19,1,No Change
+835,189,8,23,7,2,1,13,2,Add 1 shift/week
+836,221,7,60,6,9,1,8,1,Reassign Workers
+837,147,37,42,11,10,0,32,0,Increase Overtime
+838,187,48,81,7,5,0,16,3,Increase Overtime
+839,200,22,43,15,6,1,27,0,Add 1 shift/week
+840,238,31,63,3,8,0,14,2,Reassign Workers
+841,109,47,26,4,7,1,38,3,Reassign Workers
+842,305,23,50,12,5,0,23,2,Reassign Workers
+843,258,43,8,0,1,0,39,3,Reassign Workers
+844,314,32,14,9,1,1,36,2,Reassign Workers
+845,341,59,25,2,1,1,46,3,Add 1 shift/week
+846,207,31,53,11,10,1,25,3,Add 1 shift/week
+847,145,48,59,10,7,1,29,0,No Change
+848,311,51,46,8,7,0,35,0,No Change
+849,111,58,56,15,10,0,40,0,No Change
+850,161,16,41,14,5,0,23,1,No Change
+851,90,22,98,1,3,0,1,1,No Change
+852,339,8,60,0,4,0,3,3,Increase Overtime
+853,168,10,64,9,3,1,12,2,Increase Overtime
+854,261,60,94,2,5,0,5,2,Reassign Workers
+855,139,32,76,7,2,0,14,0,Add 1 shift/week
+856,282,22,34,14,4,1,28,3,Increase Overtime
+857,196,33,61,3,2,0,15,3,Increase Overtime
+858,106,25,17,5,1,1,25,3,Add 1 shift/week
+859,99,39,44,9,7,1,30,3,Reassign Workers
+860,183,32,0,15,9,0,47,3,Increase Overtime
+861,93,42,12,13,6,0,49,1,Add 1 shift/week
+862,180,31,13,5,2,1,31,3,No Change
+863,303,49,13,6,5,0,48,1,No Change
+864,105,34,81,11,4,1,17,3,Add 1 shift/week
+865,224,57,29,15,1,0,55,2,Reassign Workers
+866,250,51,59,10,9,1,30,3,No Change
+867,278,8,91,0,2,1,1,1,Reassign Workers
+868,125,38,25,11,6,0,39,3,Add 1 shift/week
+869,165,26,91,1,6,0,3,3,Increase Overtime
+870,124,29,95,6,6,0,7,2,Increase Overtime
+871,194,59,28,4,10,1,46,3,Increase Overtime
+872,296,31,72,9,7,1,17,2,Add 1 shift/week
+873,103,19,19,1,2,0,16,0,Increase Overtime
+874,242,53,46,10,8,0,38,2,Reassign Workers
+875,109,42,59,14,3,0,31,3,Increase Overtime
+876,186,55,62,9,6,0,29,0,Increase Overtime
+877,329,15,17,13,5,0,25,1,Reassign Workers
+878,183,43,10,13,9,1,51,1,Increase Overtime
+879,170,31,79,13,1,0,19,3,No Change
+880,284,9,35,15,8,0,20,2,Add 1 shift/week
+881,339,38,22,4,2,0,33,0,Reassign Workers
+882,268,30,92,1,2,1,3,0,No Change
+883,313,46,44,3,1,1,28,1,No Change
+884,269,34,65,10,4,1,21,1,No Change
+885,167,39,31,12,4,0,38,3,Reassign Workers
+886,122,45,39,12,5,0,39,3,No Change
+887,289,20,92,11,10,0,12,3,No Change
+888,151,43,100,0,6,1,0,0,No Change
+889,166,49,19,2,4,0,41,1,Add 1 shift/week
+890,172,53,75,13,2,1,26,0,No Change
+891,192,59,30,12,1,1,53,3,Reassign Workers
+892,157,38,14,8,3,1,40,1,Reassign Workers
+893,245,27,61,4,1,0,14,1,Add 1 shift/week
+894,92,7,77,8,2,0,9,2,Increase Overtime
+895,166,58,13,0,9,0,50,3,Increase Overtime
+896,211,46,8,14,10,0,56,3,Increase Overtime
+897,305,48,15,0,10,0,40,3,Add 1 shift/week
+898,322,44,49,11,3,1,33,3,Increase Overtime
+899,136,59,77,11,6,0,24,1,No Change
+900,193,9,34,14,7,1,19,1,Increase Overtime
+901,222,23,58,11,3,0,20,3,Reassign Workers
+902,219,14,20,9,9,0,20,2,Reassign Workers
+903,143,53,36,8,2,1,41,1,Increase Overtime
+904,115,57,8,7,2,0,59,1,Reassign Workers
+905,342,58,83,9,5,0,18,0,Increase Overtime
+906,167,58,12,4,7,1,55,2,Add 1 shift/week
+907,115,37,69,0,4,0,11,0,Reassign Workers
+908,272,30,42,6,9,0,23,3,Increase Overtime
+909,184,30,25,13,1,1,35,1,No Change
+910,320,52,18,15,9,1,57,2,Increase Overtime
+911,123,7,88,10,4,0,10,1,No Change
+912,143,45,78,2,1,0,11,2,Increase Overtime
+913,222,52,42,10,2,0,40,0,Add 1 shift/week
+914,273,57,55,2,2,0,27,3,Reassign Workers
+915,226,7,66,6,3,0,8,1,Add 1 shift/week
+916,140,51,98,10,2,1,11,2,Add 1 shift/week
+917,322,25,7,6,7,0,29,0,Reassign Workers
+918,313,51,88,8,7,0,14,1,Add 1 shift/week
+919,144,50,80,8,4,1,18,3,Increase Overtime
+920,338,21,21,15,3,0,31,3,Reassign Workers
+921,125,10,64,9,7,0,12,3,Increase Overtime
+922,156,19,32,4,4,0,16,1,Reassign Workers
+923,243,16,62,15,4,0,21,2,No Change
+924,198,40,17,4,2,0,37,1,No Change
+925,232,34,45,13,10,0,31,2,Reassign Workers
+926,329,7,36,11,1,1,15,3,Reassign Workers
+927,102,38,48,9,5,0,28,0,Add 1 shift/week
+928,271,8,29,8,3,1,13,0,Add 1 shift/week
+929,95,42,47,7,3,0,29,1,Add 1 shift/week
+930,240,28,4,3,9,1,29,1,Reassign Workers
+931,245,34,81,0,8,0,6,3,Reassign Workers
+932,266,45,66,5,10,1,20,0,Add 1 shift/week
+933,107,39,62,14,7,0,28,0,Reassign Workers
+934,207,26,46,2,4,0,16,1,Add 1 shift/week
+935,150,38,71,5,10,1,16,3,No Change
+936,267,51,95,2,7,0,4,0,Reassign Workers
+937,288,57,54,13,5,0,39,3,Reassign Workers
+938,227,18,13,3,3,1,18,1,Increase Overtime
+939,290,55,97,14,8,1,15,0,Reassign Workers
+940,102,48,54,6,8,0,28,0,Reassign Workers
+941,215,59,46,0,5,1,31,1,Increase Overtime
+942,197,9,88,11,7,0,12,3,No Change
+943,262,55,63,1,3,1,21,0,Add 1 shift/week
+944,230,55,5,12,8,0,64,3,Add 1 shift/week
+945,205,42,96,11,5,0,12,1,Increase Overtime
+946,165,14,5,11,7,1,24,0,Reassign Workers
+947,365,7,55,12,3,1,15,1,Reassign Workers
+948,127,53,56,1,8,0,24,3,Increase Overtime
+949,181,8,57,10,9,0,13,3,No Change
+950,339,55,9,13,5,0,63,0,No Change
+951,312,22,4,6,5,1,27,3,No Change
+952,361,59,80,6,9,0,17,0,Add 1 shift/week
+953,96,57,7,3,7,1,56,3,Reassign Workers
+954,192,32,69,4,9,0,13,1,Increase Overtime
+955,348,13,51,3,9,1,9,0,No Change
+956,96,56,14,10,4,1,58,3,Add 1 shift/week
+957,141,52,21,0,10,0,41,2,Reassign Workers
+958,242,55,45,12,5,1,42,2,Increase Overtime
+959,342,12,38,1,5,1,8,2,Reassign Workers
+960,248,46,78,10,1,1,20,1,Add 1 shift/week
+961,126,58,91,2,9,0,7,2,Increase Overtime
+962,248,50,19,15,4,0,55,0,Add 1 shift/week
+963,225,36,100,0,5,1,0,0,No Change
+964,278,34,65,2,4,0,13,3,Add 1 shift/week
+965,293,32,73,4,4,0,12,3,No Change
+966,209,20,14,8,9,0,25,1,Add 1 shift/week
+967,152,32,20,14,1,1,39,2,No Change
+968,329,31,26,4,4,1,26,2,Increase Overtime
+969,119,32,35,9,4,0,29,0,Increase Overtime
+970,221,15,7,15,3,0,28,3,Reassign Workers
+971,221,45,58,5,8,1,23,1,Add 1 shift/week
+972,119,18,27,15,3,1,28,0,Increase Overtime
+973,293,30,7,13,3,1,40,1,No Change
+974,142,16,5,13,7,1,28,2,No Change
+975,313,57,88,11,6,1,17,2,No Change
+976,352,46,63,1,6,0,18,0,Add 1 shift/week
+977,331,53,11,13,4,1,60,3,Add 1 shift/week
+978,222,30,89,2,4,1,5,2,Add 1 shift/week
+979,187,19,36,3,6,1,15,3,Add 1 shift/week
+980,178,46,53,13,2,1,34,3,Increase Overtime
+981,200,48,70,15,1,1,29,2,Add 1 shift/week
+982,355,36,28,4,8,1,29,3,Add 1 shift/week
+983,143,33,85,9,10,0,13,2,Increase Overtime
+984,207,21,79,14,7,0,18,0,Add 1 shift/week
+985,222,14,76,15,1,0,18,0,Add 1 shift/week
+986,90,16,12,13,9,0,27,2,Reassign Workers
+987,322,47,29,9,8,1,42,2,Reassign Workers
+988,219,26,92,14,8,0,16,1,Add 1 shift/week
+989,362,21,95,13,3,0,14,0,Add 1 shift/week
+990,354,38,29,8,8,0,34,3,Reassign Workers
+991,345,23,94,0,4,1,1,1,Increase Overtime
+992,254,55,60,5,4,0,27,2,Add 1 shift/week
+993,342,20,23,15,1,1,30,1,No Change
+994,214,42,47,0,9,1,22,0,Increase Overtime
+995,97,48,5,6,3,1,51,0,No Change
+996,230,15,26,7,4,0,18,3,No Change
+997,261,31,55,9,5,1,22,1,Add 1 shift/week
+998,287,18,16,13,8,1,28,2,Reassign Workers
+999,191,51,18,13,8,1,54,2,Add 1 shift/week
+1000,196,44,80,12,8,1,20,3,Reassign Workers

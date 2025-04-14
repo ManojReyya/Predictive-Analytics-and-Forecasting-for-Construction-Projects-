@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register | Predictive Analytics</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-tr from-red-600 to-orange-500 min-h-screen flex items-center justify-center font-sans antialiased">
+
+  <div class="bg-black shadow-xl rounded-3xl overflow-hidden flex w-[90%] max-w-5xl mx-auto">
+    
+    <!-- Left Panel -->
+    <div class="hidden lg:flex flex-col justify-center items-center bg-cover bg-center bg-no-repeat w-1/2 p-10 text-white bg-[url('https://images.unsplash.com/photo-1581090700227-1e8e15313f3a?auto=format&fit=crop&w=800&q=80')]">
+      <div class="backdrop-blur-sm bg-black/50 p-6 rounded-xl">
+        <h1 class="text-3xl font-bold mb-4 drop-shadow-lg">Join the Future of Construction</h1>
+        <p class="text-md drop-shadow-lg leading-relaxed max-w-sm">
+          Unlock smarter planning, accurate forecasting, and efficient project delivery with data at your fingertips.
+        </p>
+      </div>
+    </div>
+
+    <!-- Right Panel (Register Form) -->
+    <div class="w-full lg:w-1/2 p-10">
+      <h2 class="text-3xl font-bold text-white mb-6 text-center">Create an Account</h2>
+      <form method="POST" action="{{ url_for('register') }}" class="space-y-5">
+        
+        <div>
+          <label class="block text-sm font-medium text-gray-200 mb-1">Username</label>
+          <input type="text" name="username" required 
+            class="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-200 mb-1">Email</label>
+          <input type="email" name="email" required 
+            class="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-200 mb-1">Password</label>
+          <input type="password" name="password" required 
+            class="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-200 mb-1">Profession</label>
+          <input type="text" name="profession" required 
+            class="w-full px-4 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-red-500">
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium text-gray-200 mb-2">Gender</label>
+          <div class="flex gap-6">
+            <label class="flex items-center gap-2">
+              <input type="radio" name="gender" value="Male" required class="accent-red-500">
+              <span class="text-gray-200">Male</span>
+            </label>
+            <label class="flex items-center gap-2">
+              <input type="radio" name="gender" value="Female" class="accent-red-500">
+              <span class="text-gray-200">Female</span>
+            </label>
+            <label class="flex items-center gap-2">
+              <input type="radio" name="gender" value="Other" class="accent-red-500">
+              <span class="text-gray-200">Other</span>
+            </label>
+          </div>
+        </div>
+
+        <button type="submit"
+          class="w-full bg-red-600 hover:bg-red-700 transition text-white font-semibold py-2 rounded-lg shadow">
+          Register
+        </button>
+      </form>
+
+      <p class="mt-6 text-center text-sm text-gray-400">
+        Already have an account? <a href="{{ url_for('login') }}" class="text-orange-500 font-medium hover:underline">Login</a>
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>

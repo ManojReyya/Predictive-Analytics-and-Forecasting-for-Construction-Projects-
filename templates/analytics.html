@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ project.name }} - Progress Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+</head>
+    <body class="bg-gradient-to-r from-red-600 to-orange-500 min-h-screen p-6"></body>
+
+    <div id="report-content" class="max-w-6xl mx-auto bg-white shadow-xl rounded-xl p-8">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6 border-b pb-2">{{ project.name }} - Progress Report</h1>
+
+        <!-- 🟦 Progress Table -->
+        <div class="overflow-x-auto mb-10">
+            <table class="min-w-full border border-gray-300 text-sm">
+                <thead class="bg-gray-200 text-gray-700">
+                    <tr>
+                        <th class="px-4 py-2 border">Task</th>
+                        <th class="px-4 py-2 border">Date</th>
+                        <th class="px-4 py-2 border">Completion %</th>
+                        <th class="px-4 py-2 border">Delay (Days)</th>
+                        <th class="px-4 py-2 border">Notes</th>
+                    </tr>
+                </thead>
+                <tbody class="text-gray-700">
+                    {% for entry in progress_data %}
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-4 py-2 border">{{ entry.task_name }}</td>
+                        <td class="px-4 py-2 border">{{ entry.date }}</td>
+                        <td class="px-4 py-2 border">{{ entry.completion_percentage }}%</td>
+                        <td class="px-4 py-2 border">{{ entry.delay_days or "N/A" }}</td>
+                        <td class="px-4 py-2 border">{{ entry.notes or "N/A" }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 📊 Visualizations -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            <!-- Line Chart: Progress Over Time -->
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Overall Completion Over Time</h2>
+                <canvas id="completionChart" class="bg-white p-4 rounded shadow-md"></canvas>
+            </div>
+
+            <!-- Bar Chart: Task-wise Completion -->
+            <div>
+                <h2 class="text-xl font-semibold text-gray-800 mb-2">Latest Task Completion %</h2>
+                <canvas id="taskChart" class="bg-white p-4 rounded shadow-md"></canvas>
+            </div>
+        </div>
+    </div>
+<!-- ✅ Replace HTML download button -->
+<div class="text-right my-4">
+    <button onclick="downloadPDF()" class="bg-green-600 hover:bg-green-700 text-white font-semibold px-4 py-2 rounded">
+        📄 Download as PDF
+    </button>
+</div>
+
+    
+    <!-- Chart.js Script -->
+    <script>
+        const progressData = {{ progress_data|tojson }};
+
+        // 🟩 Line Chart Data
+        const labels = [...new Set(progressData.map(e => e.date))];
+        const dateCompletion = labels.map(date => {
+            const filtered = progressData.filter(e => e.date === date);
+            const avg = filtered.reduce((sum, e) => sum + e.completion_percentage, 0) / filtered.length;
+            return avg.toFixed(2);
+        });
+
+        const ctx1 = document.getElementById('completionChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Average Completion %',
+                    data: dateCompletion,
+                    borderColor: 'green',
+                    backgroundColor: 'rgba(34,197,94,0.2)',
+                    fill: true,
+                    tension: 0.3
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: { beginAtZero: true, max: 100 }
+                }
+            }
+        });
+
+        // 🟦 Bar Chart Data
+        const latestProgress = {};
+        for (let entry of progressData) {
+            latestProgress[entry.task_name] = entry.completion_percentage;
+        }
+
+        const ctx2 = document.getElementById('taskChart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: Object.keys(latestProgress),
+                datasets: [{
+                    label: 'Latest Completion %',
+                    data: Object.values(latestProgress),
+                    backgroundColor: 'rgba(59,130,246,0.6)',
+                    borderColor: 'rgba(59,130,246,1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: { beginAtZero: true, max: 100 }
+                }
+            }
+        });
+    </script>
+<script>
+    function downloadPDF() {
+        const element = document.getElementById('report-content');
+        const opt = {
+            margin:       0.5,
+            filename:     'progress_report.pdf',
+            image:        { type: 'jpeg', quality: 0.98 },
+            html2canvas:  { scale: 2 },
+            jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+        };
+
+        html2pdf().set(opt).from(element).save();
+    }
+</script>
+
+</body>
+</html>

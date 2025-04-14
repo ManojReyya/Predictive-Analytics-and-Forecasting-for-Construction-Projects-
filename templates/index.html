@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard | Forecast Engine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-red-600 to-orange-500 min-h-screen font-sans antialiased text-white">
+
+  <!-- Navbar -->
+  <nav class="bg-black/70 backdrop-blur-md shadow-lg px-6 py-4 flex items-center justify-between">
+    <div class="text-xl font-bold tracking-wide">📊 Predictive Analytics Dashboard</div>
+    <div class="space-x-6 text-sm font-medium">
+      <a href="{{ url_for('index') }}" class="hover:underline">Dashboard</a>
+      <a href="{{ url_for('core') }}" class="hover:underline">Forecast Engine</a>
+      {% if current_user.is_authenticated and current_user.is_admin %}
+        <a href="{{ url_for('admin_panel') }}" class="hover:underline text-yellow-300">Admin Panel</a>
+      {% endif %}
+      <a href="{{ url_for('logout') }}" class="bg-white text-red-600 px-4 py-2 rounded-full hover:bg-gray-100 transition">Logout</a>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="max-w-6xl mx-auto mt-10 bg-black/70 backdrop-blur-md p-10 rounded-3xl shadow-2xl">
+
+    <h1 class="text-3xl font-bold mb-8 text-orange-400">📋 Create or Import Project</h1>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for category, message in messages %}
+          <div class="mb-4 p-4 rounded-lg bg-{{ 'green' if category == 'success' else 'red' }}-600 text-white shadow">
+            {{ message }}
+          </div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <!-- Project Form -->
+    <form method="POST" class="mb-10 space-y-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <input type="text" name="project_name" placeholder="Project Name" required class="p-3 rounded bg-white/10 text-white placeholder-gray-400 focus:ring-2 focus:ring-orange-400" />
+        <input type="date" name="start_date" required class="p-3 rounded bg-white/10 text-white focus:ring-2 focus:ring-orange-400" />
+        <input type="date" name="end_date" required class="p-3 rounded bg-white/10 text-white focus:ring-2 focus:ring-orange-400" />
+      </div>
+      <button type="submit" class="bg-orange-500 hover:bg-orange-600 px-6 py-3 rounded-lg font-semibold text-white transition">Add Project</button>
+    </form>
+
+    <!-- Upload Excel -->
+    <form method="POST" enctype="multipart/form-data" class="mb-10">
+      <label class="block text-lg font-medium mb-2">📂 Import from Excel (.xlsx or .csv)</label>
+      <input type="file" name="file" accept=".xlsx,.csv" required class="p-3 rounded bg-white/10 text-white file:text-white file:bg-orange-600 file:rounded file:border-none file:px-4 file:py-2 mb-4" />
+      <button type="submit" class="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg text-white font-semibold">Upload</button>
+    </form>
+
+    <hr class="border-gray-600 my-10"/>
+
+    <h2 class="text-2xl font-semibold mb-4">📁 Projects</h2>
+
+    <ul class="space-y-8">
+      {% for project in projects %}
+        <li class="border-l-4 border-orange-400 pl-4">
+          <div class="flex justify-between items-start">
+            <div>
+              <p class="text-xl font-bold">{{ project.name }}</p>
+              <p class="text-sm text-gray-300">{{ project.start_date }} → {{ project.end_date }} | Status: {{ project.status }}</p>
+
+              <!-- View Report Button -->
+              <a href="{{ url_for('project_report', project_id=project.id) }}"
+                 class="inline-block mt-2 text-sm bg-white text-orange-600 px-4 py-2 rounded hover:bg-gray-100 transition">
+                📈 View Report
+              </a>
+            </div>
+
+            {% if current_user.is_authenticated and current_user.is_admin %}
+              <form method="POST" action="{{ url_for('delete_project', project_id=project.id) }}">
+                <button type="submit" class="bg-red-600 hover:bg-red-700 text-white px-4 py-2 rounded-lg">Delete Project</button>
+              </form>
+            {% endif %}
+          </div>
+
+          <!-- Task List -->
+          <ul class="mt-4 space-y-2 ml-6">
+            {% for task in project.tasks %}
+              <li class="flex justify-between items-center">
+                <span>{{ task.name }}</span>
+                <div class="space-x-3 text-sm">
+                  <a href="{{ url_for('add_progress', task_id=task.id) }}" class="text-blue-300 hover:underline">Add Progress</a>
+                  {% if current_user.is_authenticated and current_user.is_admin %}
+                    <form method="POST" action="{{ url_for('delete_task', task_id=task.id) }}" class="inline">
+                      <button type="submit" class="text-red-400 hover:text-red-500">🗑</button>
+                    </form>
+                  {% endif %}
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+
+          <!-- Add Sub-task -->
+          <form method="POST" action="{{ url_for('add_task_inline', project_id=project.id) }}" class="mt-4 grid grid-cols-1 md:grid-cols-4 gap-4">
+            <input type="text" name="task_name" placeholder="Sub-task Name" required class="p-3 rounded bg-white/10 text-white placeholder-gray-400 focus:ring-2 focus:ring-purple-500" />
+            <input type="date" name="task_start_date" required class="p-3 rounded bg-white/10 text-white focus:ring-2 focus:ring-purple-500" />
+            <input type="date" name="task_end_date" required class="p-3 rounded bg-white/10 text-white focus:ring-2 focus:ring-purple-500" />
+            <button type="submit" class="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg">Add Sub-task</button>
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</body>
+</html>

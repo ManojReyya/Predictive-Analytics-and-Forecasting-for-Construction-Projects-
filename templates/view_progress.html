@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Progress | Forecast Engine</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-red-600 to-orange-500 min-h-screen flex items-center justify-center p-6 text-white font-sans">
+
+  <div class="w-full max-w-4xl backdrop-blur-md bg-black/80 p-8 rounded-3xl shadow-2xl">
+    <h1 class="text-3xl font-bold mb-6 text-orange-400">
+      📈 Task Progress: <span class="text-white">{{ task.name }}</span>
+    </h1>
+
+    {% if task.progress %}
+      <div class="overflow-x-auto">
+        <table class="w-full table-auto border-separate border-spacing-y-2 text-sm text-white">
+          <thead>
+            <tr class="bg-black/50 text-orange-300">
+              <th class="px-4 py-2 rounded-l-lg">📅 Date</th>
+              <th class="px-4 py-2">✅ Completion %</th>
+              <th class="px-4 py-2">⏱️ Delay (Days)</th>
+              <th class="px-4 py-2 rounded-r-lg">📝 Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for progress in task.progress %}
+              <tr class="bg-white/10 hover:bg-white/20 text-center rounded-lg">
+                <td class="px-4 py-2">{{ progress.date.strftime('%Y-%m-%d') }}</td>
+                <td class="px-4 py-2">{{ progress.completion_percentage }}%</td>
+                <td class="px-4 py-2">{{ progress.delay_days if progress.delay_days is not none else '-' }}</td>
+                <td class="px-4 py-2">{{ progress.notes or '-' }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <p class="text-gray-300 mt-4">No progress records found for this task.</p>
+    {% endif %}
+
+    <div class="mt-8 text-right">
+      <a href="{{ url_for('index') }}" class="inline-block bg-orange-500 hover:bg-orange-600 transition px-5 py-2 rounded-xl text-white font-semibold shadow-md">
+        ⬅ Back to Dashboard
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

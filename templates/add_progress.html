@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Progress</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto my-6 p-6 bg-white rounded-lg shadow-lg">
+        <h2 class="text-2xl font-semibold mb-6">Add Progress for Task: {{ task.name }}</h2>
+
+        <form action="" method="POST">
+            <!-- Date -->
+            <div class="mb-4">
+                <label for="date" class="block text-sm font-medium text-gray-700">Date</label>
+                <input type="date" id="date" name="date" class="mt-1 block w-full px-4 py-2 border rounded-md" required>
+            </div>
+
+            <!-- Completion Percentage -->
+            <div class="mb-4">
+                <label for="completion_percentage" class="block text-sm font-medium text-gray-700">Completion Percentage</label>
+                <input type="number" id="completion_percentage" name="completion_percentage" class="mt-1 block w-full px-4 py-2 border rounded-md" min="0" max="100" required>
+            </div>
+
+            <!-- Delay Days -->
+            <div class="mb-4">
+                <label for="delay_days" class="block text-sm font-medium text-gray-700">Delay (in days)</label>
+                <input type="number" id="delay_days" name="delay_days" class="mt-1 block w-full px-4 py-2 border rounded-md">
+            </div>
+
+            <!-- Notes -->
+            <div class="mb-4">
+                <label for="notes" class="block text-sm font-medium text-gray-700">Notes</label>
+                <textarea id="notes" name="notes" class="mt-1 block w-full px-4 py-2 border rounded-md" rows="3"></textarea>
+            </div>
+
+            <div class="flex justify-between">
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md">Submit</button>
+                <a href="{{ url_for('index') }}" class="text-gray-500">Back to Project List</a>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

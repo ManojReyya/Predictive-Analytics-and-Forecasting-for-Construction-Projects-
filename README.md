@@ -1,58 +1,47 @@
-🏗️ Predictive Analytics and Forecasting for Construction Projects
-A Flask-based web application designed to streamline construction project management. It includes powerful features such as role-based access control, progress tracking, and AI-driven forecasting for project completion, labor needs, and material requirements.
+# 🏗️ Predictive Analytics and Forecasting for Construction Projects
 
-🚀 Features
-✅ Core System
-User Authentication
+A Flask-based web application for managing construction projects, tasks, and progress. It includes role-based authentication, admin controls, and AI-powered predictions for project analytics such as estimated completion time, required workers, and material needs.
 
-Register, Login, Logout
+---
 
-Role-Based Access
+## 🚀 Features
 
-Admins and Core Users
+### ✅ Core Features
 
-Project Management
+- **User Authentication**
+  - Register, Login, Logout
+- **Role-Based Access**
+  - Admin and Core User roles
+- **Project Management**
+  - Add, view, and delete projects
+  - Inline task management for each project
+- **Task Progress Tracking**
+  - Add progress with percentage, delays, and notes
+  - Automatic status updates
+- **Admin Panel**
+  - Promote/Demote admins
+  - Block/Unblock users
+  - Delete users
+- **File Upload Support**
+  - Import project tasks via `.xlsx` or `.csv` files
+- **Analytics & Reporting**
+  - View task progress in structured tables
+  - (Optional) Downloadable reports
 
-Add, view, delete projects
+### 🤖 AI-Powered Predictions
 
-Inline task management for each project
+Powered by pre-trained ML models:
+- ⏳ Estimated days to completion
+- 👷 Required additional workers
+- 🧱 Required additional materials
 
-Task Progress Tracking
+---
 
-Update completion percentage, delays, and notes
+## ⚙️ Installation & Setup
 
-Auto-updates task and project status
+### 1. Clone the Repository
 
-Admin Dashboard
-
-Promote/demote users to Admin
-
-Block/unblock and delete users
-
-File Upload Support
-
-Import tasks via .xlsx or .csv files
-
-Analytics & Reporting
-
-Visualize task progress and delays
-
-Structured tabular reporting
-
-🤖 AI-Powered Predictions
-Powered by pre-trained machine learning models:
-
-⏳ Estimated Completion Time (in days)
-
-👷 Additional Workers Required
-
-🧱 Additional Materials Needed
-
-⚙️ Installation & Setup
-1. Clone the Repository
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/ManojReyya/Predictive-Analytics-and-Forecasting-for-Construction-Projects-.git
 cd Predictive-Analytics-and-Forecasting-for-Construction-Projects-
 2. Set Up Virtual Environment
@@ -71,7 +60,8 @@ bash
 Copy
 Edit
 python app.py
-Then visit the application in your browser:
+5. Open in Browser
+Visit:
 
 cpp
 Copy
